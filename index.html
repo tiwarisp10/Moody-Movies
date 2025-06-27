@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moody Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div style="text-align: center; display: flex; background-color: aqua;" id="home">
+  <h1 style="display: inline-block; vertical-align: middle; font-size: 3em; margin: 0;">Moody Movies</h1>
+  <img src="./images/Bollywood.webp" alt="Bollywood Clapperboard" style="vertical-align: middle; height: 60px; width: max-content; margin-left: 10px;">
+<pre>                                                                </pre>
+  <ol style="display:flex; gap: 30px; list-style-type: none;" class="homesection" >
+    <li class="hoe"><a href="#home">Home</a></li>
+    <li class="hoe"><a href="#entertaining">Sections</a></li>
+    <li class="hoe"><a href="aboutus.html">About Us</a></li>
+    <li class="hoe"><a href="services.html">Services</a></li>
+    <li class="hoe"><a href="#contact">Contact Us</a></li>
+  </ol>
+</div>
+<br>
+<br>
+
+<div style="text-align: center; display: flex; gap: 20px;" class="about">
+  <p class="about">
+    Welcome to Moody Movies!<br>
+    At Moody Movies, we believe that every emotion deserves the perfect film. <br>
+    Whether you're feeling joyful, heartbroken, nostalgic, adventurous, or just plain bored, <br>
+    our smart mood-based recommendation engine helps you discover the right movie to match your current vibe.
+  </p>
+
+  <!-- Streaming platform logos with anchor tags -->
+  <!-- <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;"> -->
+    <div>
+    <table class="about">
+      <tr>
+        <td><a href="https://www.amazon.com/Amazon-Video/b?node=2858778011&ie=UTF8" target="_blank">
+      <img src="./images/640px-Amazon_Prime_logo_(2022).svg.webp" alt="Prime Video" style="height: 60px;">
+    </a>
+<td> <a href="https://www.netflix.com/in/" target="_blank">
+      <img src="./images/netflix-logo-png_seeklogo-451981.webp" alt="Netflix" style="height:auto; width: 100px;">
+    </a></td> 
+      </tr>
+    <br>
+    <br>
+      <tr>
+      <td><a href="https://www.youtube.com/" target="_blank">
+      <img src="./images/youtube.webp" alt="YouTube" style="height: 40px; width: 90px;">
+    </a>
+</td>
+      <td> <a href="https://tv.apple.com/" target="_blank">
+      <img src="./images/250px-Apple_TV_Plus_Logo.svg.webp" alt="Apple TV" style="height: 40px;">
+    </a></td>
+    </tr>
+
+  </div>
+</div>
+</table>
+</div>
+</div>
+<br><br>
+  <h2 class="explore">Explore by mood</h2>
+  <br>
+  <div style="text-align: center; align-content: center; display: flex;">
+    <p class="explorep"> <br>Let your feelings lead the way.<br><br>
+Whether you're looking to unwind after a long day,<br>
+seek thrilling adventures,<br>
+or find comfort in familiar joys,<br>
+we've carefully curated experiences that perfectly match your current mood.<br><br>
+</p>
+    <img src="./images/mood.png" alt="Moody movie" width="300px" height="370px">
+
+</div>
+<br><br>
+  <div>
+  <!-- Munna Bhai Section -->
+  <section id = "entertaining" class="clickable-section" style="background-image: url('./images/Munna-Bhai-M.B.B.S.-2003.webp');">
+    <a href="entertaining.html" class="full-link">
+    <div class="overlay"></div>
+    <div class="content">
+      <h2 style="color: white;">Entertaining</h2>
+      <p style="color: white;">Munna Bhai MBBS</p>
+    </div>
+    </a>
+  </section>
+  </div>
+
+  <!-- Section 2 -->
+<section class="clickable-section" style="background-image: url('./images/RRR.jpg');">
+  <a href="fellowship.html" class="full-link" target=>
+    <div class="overlay"></div>
+    <div class="content">
+      <h2 style="color: white;">Action and Adventures</h2>
+      <p style="color: white;">RRR</p>
+    </div>
+    </a>
+  </section>
+
+  <!-- Jab We Met -->
+  <section class = "clickable-section" style="background-image: url('./images/Jab-We-Met-Best-Hindi-Romantic-Movies.webp');">
+    <a href="lovestory.html" class = "full-link">
+    <div class="overlay"></div>
+    <div class="content" id="100p">
+      <h2 style="color: white;">Love Story</h2>
+      <p style="color: white;">Jab We Met</p>
+    </div>
+    </a>
+  </section>
+
+
+  <!-- URI - The Surgical Strike -->
+ <section class="clickable-section" style="background-image: url('./images/URI.webp'); text-align: center;">
+  <a href="patriotic.html" class="full-link">
+  <div class="overlay"></div>
+  <div class="content">
+    <h2 style="color: white;">Patriotic</h2>
+    <p style = "color: white">URI - The Surgical Strike</p>
+  </div>
+</a>
+</section>
+
+<!-- Tanhaji - The Unsung Warrior -->
+
+<section class="clickable-section" style="background-image: url('./images/tanhaji.webp'); text-align: center;">
+  <a href="historic.html" class="full-link">
+  <div class="overlay"></div>
+  <div class="content">
+    <h2 style="color: white;">Historic</h2>
+    <p style = "color: white">Tanhaji - The Unsung Warrior</p>
+  </div>
+</a>
+</section>
+<br>
+<div id="contact">
+<h3><span style="background-color: aquamarine;"> <u>Contact Us </u> </span></h3>
+<br>
+<form>
+  <div style="display: flex; gap: 225px;">
+    <div>
+    <label for="name">Name </label>
+    <input style="text-align: center; height: 30px;" type="text" placeholder="Name" id="name" required>
+     </div>
+     <div>  
+      <label for="no.">Phone Number </label>
+      <input style="text-align: center; height: 30px;" type="number" placeholder="Contact Number" id="no." required> 
+    </div>
+    <div>
+    <label for="mail">Email Id </label>
+    <input style="text-align: center; height: 30px;" type="email" placeholder="E-mail" id="mail" required>
+      </div>
+  </div>
+  <br>
+    <div style="display: flex; align-items: center;">
+    <label for="textarea">Message</label>
+  <textarea style=" align-items: center; text-align: center; width: 180px; height: 80px;"name="" id="textarea" placeholder="Enter a comment" required></textarea>
+    </div>
+<br>
+<div style="display: flex; justify-content: center;">
+<button style="color: blue; width: 100px; height: auto;"> Submit </button>
+</div>  
+  </form>
+
+<div>
+    <p style="font-size: small;">Copyright &copy; 2025 all rights preserved</p>
+  </div>
+</body>
+</html>
